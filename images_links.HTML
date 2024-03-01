@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header, nav, section, footer {
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            margin: 5px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to Image Links</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Explore the world of images related to different topics.</p>
+        <a href="https://placeholder-url-for-technology.com" target="_blank">
+            <img src="technology_image.jpg" alt="Technology Image">
+        </a>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://placeholder-url-for-nature-image1.com" target="_blank">
+                <img src="nature_image1.jpg" alt="Nature Image 1">
+            </a>
+            <a href="https://placeholder-url-for-nature-image2.com" target="_blank">
+                <img src="nature_image2.jpg" alt="Nature Image 2">
+            </a>
+            <a href="https://placeholder-url-for-nature-image3.com" target="_blank">
+                <img src="nature_image3.jpg" alt="Nature Image 3">
+            </a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>
+                <a href="https://placeholder-url-for-food-item1.com" target="_blank">
+                    <img src="food_item1.jpg" alt="Food Item 1"> Food Item 1
+                </a>
+            </li>
+            <li>
+                <a href="https://placeholder-url-for-food-item2.com" target="_blank">
+                    <img src="food_item2.jpg" alt="Food Item 2"> Food Item 2
+                </a>
+            </li>
+            <li>
+                <a href="https://placeholder-url-for-food-item3.com" target="_blank">
+                    <img src="food_item3.jpg" alt="Food Item 3"> Food Item 3
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Image Links. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
